@@ -13,7 +13,7 @@ public class BankAccount implements BankOperations{
         this.balance = 0.0;
     }
 
-    private String getAccountNumber() {
+    public String getAccountNumber() {
         return accountNumber;
     }
 
@@ -21,7 +21,7 @@ public class BankAccount implements BankOperations{
         this.accountNumber = accountNumber;
     }
 
-    private String getAccountType() {
+    public String getAccountType() {
         return accountType;
     }
 
@@ -29,7 +29,7 @@ public class BankAccount implements BankOperations{
         this.accountType = accountType;
     }
 
-    private double getBalance() {
+    public double getBalance() {
         return balance;
     }
 
